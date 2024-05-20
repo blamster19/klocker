@@ -1,6 +1,7 @@
 set(srcs
         "main.c"
-        "sketch.cpp")
+        "sketch.cpp"
+        "bp32_task.cpp")
 
 set(requires "bluepad32" "bluepad32_arduino" "arduino" "btstack")
 

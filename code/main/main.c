@@ -15,6 +15,10 @@
 #include <arduino_platform.h>
 #include <uni.h>
 
+// Custom
+#include "bp32_task.h"
+#include <Arduino.h>
+
 //
 // Autostart
 //
@@ -32,19 +36,17 @@ int app_main(void) {
 #endif  // CONFIG_BLUEPAD32_USB_CONSOLE_ENABLE
 #endif  // CONFIG_ESP_CONSOLE_UART_NONE
 
-    // Configure BTstack for ESP32 VHCI Controller
-    btstack_init();
+	// BP32 task
+	xTaskCreatePinnedToCore(
+		bp32_task,
+		"BP32",
+		10000,
+		NULL,
+		0,
+		NULL,
+		0
+	);
 
-    // hci_dump_init(hci_dump_embedded_stdout_get_instance());
-
-    // Must be called before uni_init()
-    uni_platform_set_custom(get_arduino_platform());
-
-    // Init Bluepad32.
-    uni_init(0 /* argc */, NULL /* argv */);
-
-    // Does not return.
-    btstack_run_loop_execute();
 #if !CONFIG_AUTOSTART_ARDUINO
     return 0;
 #endif  // !CONFIG_AUTOSTART_ARDUINO
