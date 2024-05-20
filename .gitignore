@@ -1,3 +1,9 @@
 *.blend1
 *.swp
-code/.pio/
+.pio/
+.build/
+sdkconfig.old
+sdkconfig
+*.o
+sdkconfig.seeed_xiao_esp32c3
+dependencies.lock
