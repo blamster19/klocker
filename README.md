@@ -35,4 +35,4 @@ The behavior is controlled by a simple state machine inspired by Figure 3 on pag
 The robot was a bit inflexible, so this could be improved.
 
 ![robot klocker 1](https://github.com/user-attachments/assets/5aadc3d3-a276-40a1-91cd-d3ce7dbd9a2a)
-r 1.jpg)
+
