@@ -14,7 +14,10 @@ This repository holds all digital materials created for tower-building robot com
 supervisor: Piotr Kaźmierczak
 
 # Construction
-The robot's chassis was 3D printed.
+The robot's chassis was 3D printed. Initially, the robot was supposed to have the plow positioned horizontally, but it was more difficult to scoop the blocks.
+![prototype](https://github.com/user-attachments/assets/b9332739-77bd-427c-a4f6-dce590f1ee0e)
+
+
 
 The first iteration was meant to utilize all parts in file `hardware/części\ v2.xlsx`.
 
@@ -32,7 +35,7 @@ Li-ion battery pack was provided by the contest holder, had a mass of ~300 g (ex
 The behavior is controlled by a simple state machine inspired by Figure 3 on page 5 of [this document](http://www.ridgesoft.com/articles/minisumo/Building%20and%20Programming%20a%20Mini-Sumo.pdf). In a nutshell, the robot is remotely controlled by a pad. The pad connects via Bluetooth to the Raspberry and it connects to the Arduino. This excessive complication is caused by the fact that initially the pad did not want to connect directly to the Arduino. The robot tries to gather blocks onto a plow. Then it puts the plow upright using a string wound around the block and attached to the plow. The robot tries to grab as many blocks as possible with its U-shaped chassis before its opponent does.
 
 # Possible improvements
-The robot was a bit inflexible, so this could be improved.
+The robot was a bit inflexible, so this could be improved. A flap can be added to the plow to prevent the block tower from tipping over.
 
 ![robot klocker 1](https://github.com/user-attachments/assets/5aadc3d3-a276-40a1-91cd-d3ce7dbd9a2a)
 
