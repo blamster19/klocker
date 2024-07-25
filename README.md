@@ -34,5 +34,5 @@ The behavior is controlled by a simple state machine inspired by Figure 3 on pag
 # Possible improvements
 The robot was a bit inflexible, so this could be improved.
 
-![Klocker ready to fight](robot klocke![robot klocker 1](https://github.com/user-attachments/assets/5aadc3d3-a276-40a1-91cd-d3ce7dbd9a2a)
-r 1.jpg) https://github.com/blamster19/klocker/blob/master/robot%20klocker%201.jpg?raw=true
+![robot klocker 1](https://github.com/user-attachments/assets/5aadc3d3-a276-40a1-91cd-d3ce7dbd9a2a)
+r 1.jpg)
