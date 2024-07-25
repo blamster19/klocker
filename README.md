@@ -14,13 +14,13 @@ This repository holds all digital materials created for tower-building robot com
 supervisor: Piotr Kaźmierczak
 
 # Construction
-The robot's chassis was 3D printed. Initially, the robot was supposed to have the plow positioned horizontally, but it was more difficult to scoop the blocks.
+The robot's chassis was 3D printed. Initially, the robot was supposed to have the plow positioned horizontally, but it was more difficult to scoop the blocks. Here is the prototype:
 ![prototype](https://github.com/user-attachments/assets/b9332739-77bd-427c-a4f6-dce590f1ee0e)
 
 
 
 The first iteration was meant to utilize all parts in file `hardware/części\ v2.xlsx`.
-
+Final version is on the picture at the end.
 The final version consisted of
 * 1 Seeed Xiao board
 * 1 Adafruit servo shield
