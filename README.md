@@ -2,7 +2,7 @@
 Tower-building robot
 
 # Overview
-This repository holds all the digital materials created by our team during the design and construction of our robot for the tower-building competition held on 2024-07-08 by the Faculty of Physics at the University of Warsaw. With out final design we managed to win 3rd place against 5 other teams.
+This repository holds all the digital materials created by our team during the design and construction of our robot for the tower-building competition held on 2024-07-08 by the Faculty of Physics at the University of Warsaw. With our final design we managed to win 3rd place against 5 other teams.
 
 
 # Team
